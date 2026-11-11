@@ -1,7 +1,7 @@
 
 import type { MetadataRoute } from "next";
 
-const siteUrl = "https://the-open-tab.vercel.app";
+const siteUrl = 'https://opentap.vercel.app';
 
 export default function robots(): MetadataRoute.Robots {
   return {

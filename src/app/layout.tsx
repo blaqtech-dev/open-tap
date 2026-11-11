@@ -2,7 +2,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import ServiceWorkerRegister from "@/components/pwa/service-worker-register";
-const siteUrl = "https://the-open-tab.vercel.app";
+const siteUrl = 'https://opentap.vercel.app';
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
